@@ -25,7 +25,7 @@ const LandingPage = () => {
             Create
           </Link>
           <a
-            href="https://ko-fi.com/saurra3h"
+            href="https://github.com/sponsors/starc007"
             target="_blank"
             className="px-8 h-12 flex items-center text-lg text-white bg-white/10 rounded-lg font-semibold mt-4 hover:bg-white/5 transition-all duration-200"
           >

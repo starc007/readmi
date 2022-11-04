@@ -1,0 +1,133 @@
+@md-editor:~ "w-md-editor";
+
+.@{md-editor} {
+  &-aree {
+    overflow: auto;
+    border-radius: 5px;
+  }
+  &-text {
+    min-height: 100%;
+    position: relative;
+    text-align: left;
+    white-space: pre-wrap;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 18px;
+    font-variant-ligatures: common-ligatures;
+    &-pre,
+    &-input,
+    & > &-pre {
+      margin: 0;
+      border: 0;
+      background: none;
+      box-sizing: inherit;
+      display: inherit;
+      font-family: inherit;
+      font-size: inherit;
+      font-style: inherit;
+      font-variant-ligatures: inherit;
+      font-weight: inherit;
+      letter-spacing: inherit;
+      line-height: inherit;
+      tab-size: inherit;
+      text-indent: inherit;
+      text-rendering: inherit;
+      text-transform: inherit;
+      white-space: inherit;
+      overflow-wrap: inherit;
+      word-break: inherit;
+      word-break: normal;
+      padding: 0;
+      > code {
+        font-family: inherit;
+      }
+    }
+    &-pre {
+      position: relative;
+      margin: 0px !important;
+      pointer-events: none;
+      background-color: transparent !important;
+      > code {
+        padding: 0 !important;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+        font-size: 14px !important;
+        line-height: 18px !important;
+      }
+    }
+    &-input {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      height: 100%;
+      width: 100%;
+      resize: none;
+      color: inherit;
+      overflow: hidden;
+      outline: 0;
+      padding: inherit;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-fill-color: transparent;
+      &:empty {
+        -webkit-text-fill-color: inherit !important;
+      }
+    }
+    &-pre,
+    &-input {
+      word-wrap: pre;
+      word-break: break-word;
+      white-space: pre-wrap;
+    }
+  }
+}
+/**
+ * Hack to apply on some CSS on IE10 and IE11
+ */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /**
+    * IE doesn't support '-webkit-text-fill-color'
+    * So we use 'color: transparent' to make the text transparent on IE
+    * Unlike other browsers, it doesn't affect caret color in IE
+    */
+  .@{md-editor}-text-input {
+    color: transparent !important;
+    &::selection {
+      background-color: #accef7 !important;
+      color: transparent !important;
+    }
+  }
+}
+
+.@{md-editor}-text-pre {
+  .punctuation {
+    color: var(--color-prettylights-syntax-comment) !important;
+  }
+  .token.url,
+  .token.content {
+    color: var(--color-prettylights-syntax-constant) !important;
+  }
+  .token.title.important {
+    color: var(--color-prettylights-syntax-markup-bold);
+  }
+  .token.code-block .function {
+    color: var(--color-prettylights-syntax-entity);
+  }
+  .token.bold {
+    font-weight: unset !important;
+  }
+  .token.title {
+    line-height: unset !important;
+    font-size: unset !important;
+    font-weight: unset !important;
+  }
+  .token.code.keyword {
+    color: var(--color-prettylights-syntax-constant) !important;
+  }
+  .token.strike,
+  .token.strike .content {
+    color: var(--color-prettylights-syntax-markup-deleted-text) !important;
+  }
+}
