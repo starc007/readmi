@@ -6,16 +6,16 @@ const LandingPage = () => {
   return (
     <div className="container mx-auto px-3">
       <div className="flex flex-col items-center md:mt-20 mt-16">
-        <p className="sm:text-6xl text-[41px] font-bold leading-tight text-white text-center sm:leading-tight lg:leading-tight">
-          The Easiest & Best way to <br className="lg:block hidden" /> create{" "}
+        <p className="sm:text-7xl text-5xl font-bold leading-tight text-white text-center sm:leading-tight lg:leading-tight">
           <span className="relative inline-flex sm:inline">
             <span className="bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] blur-lg filter opacity-30 w-full h-full absolute inset-0"></span>
-            <span className="relative">README</span>
-          </span>
+            <span className="relative">Github</span>
+          </span>{" "}
+          Simp
         </p>
         <p className="text-gray-400 text-center mt-4 text-md md:text-xl max-w-2xl font-medium">
-          Create your own README.md file in seconds, use existing templates or
-          add predefined sections to your README.md file.
+          Use pre-made templates to quickly create your own README.md file, or
+          add sections that have already been established.
         </p>
         <div className="flex items-center space-x-2">
           <Link
