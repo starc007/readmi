@@ -42,12 +42,14 @@ If you have any questions, feel free to reach out to me on [Twitter](https://twi
 <p align="left">
 <a href="https://www.paypal.me/saurra3h"><img src="https://ionicabizau.github.io/badges/paypal.svg" alt="sponsor github profile readme generator"/>
 </a>
- <a href='https://ko-fi.com/saurra3h' target='_blank'><img height='23' width="100" src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' alt='Buy Coffee for rahuldkjain' />
+ <a href='https://ko-fi.com/saurra3h' target='_blank'><img height='23' width="100" src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' alt='Buy Coffee for Saurabh' />
+  </a>
+ <a href='https://www.buymeacoffee.com/saurra3h' target='_blank'><img height='23' width="100" src='https://cdn.buymeacoffee.com/buttons/default-orange.png' alt='Buy Coffee for Saurabh' />
   </a>
 </p>
 
 ## ➤ License
 
-Distributed under the [MIT](/LICENSE) License. See [LICENSE](LICENSE.txt) for more information.
+Distributed under the [MIT](LICENSE.txt) License. See [LICENSE](LICENSE.txt) for more information.
 
 This readme was created with [readmi.xyz](https://readmi.xyz) ❤️
