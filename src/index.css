@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "General Sans", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  background-color: #0d1117;
+}
+
+.hide__scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide__scrollbar {
+  scrollbar-width: none;
+}
+.w-md-editor-text-pre > code,
+.w-md-editor-text-input {
+  font-size: 16px !important;
+  line-height: 20px !important;
+}
+
+.div__style {
+  height: 83vh;
+  overflow: auto;
+}
