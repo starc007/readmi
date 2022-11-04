@@ -4,13 +4,13 @@ import demo from "../assets/demo.png";
 
 const LandingPage = () => {
   return (
-    <div className="container mx-auto px-4">
+    <div className="container mx-auto px-3">
       <div className="flex flex-col items-center md:mt-20 mt-16">
         <p className="sm:text-6xl text-[41px] font-bold leading-tight text-white text-center sm:leading-tight lg:leading-tight">
-          The Easiest & Best way to <br className="lg:block hidden" /> create
+          The Easiest & Best way to <br className="lg:block hidden" /> create{" "}
           <span className="relative inline-flex sm:inline">
             <span className="bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] blur-lg filter opacity-30 w-full h-full absolute inset-0"></span>
-            <span className="relative"> README </span>
+            <span className="relative">README</span>
           </span>
         </p>
         <p className="text-gray-400 text-center mt-4 text-md md:text-xl max-w-2xl font-medium">
