@@ -37,6 +37,7 @@ Your description here
     id: 5,
     name: "Install Dependencies",
     md: `
+## Install Dependencies    
 \`\`\`bash
 npm install
 \`\`\`
@@ -56,8 +57,8 @@ npm install
     id: 7,
     name: "Usage",
     md: `
-\`\`\`js
 ## ➤ Usage
+\`\`\`js
 import { useMetamask } from '@saura3h/web3-connect'
 const client = new useMetamask()
 const connectWallet = async () => {
