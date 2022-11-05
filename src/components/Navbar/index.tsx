@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { toast } from "react-hot-toast";
 import { ImCool2 } from "react-icons/im";
+import { AiFillGithub } from "react-icons/ai";
 import { useEditor } from "../../context/editorContext";
 
 const Navbar = () => {
@@ -35,13 +36,21 @@ const Navbar = () => {
         <Link to="/" className="md:text-4xl text-3xl font-semibold text-white">
           <ImCool2 />
         </Link>
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-4">
+          <a
+            href="https://github.com/starc007/readmi"
+            target="_blank"
+            className="text-lg text-white rounded-lg font-semibold hover:bg-white/5 transition-all duration-200"
+          >
+            <AiFillGithub size={25} />
+          </a>
           <Link
             to="/templates"
             className="font-medium md:mr-4 mr-3 text-gray-100 md:text-base text-sm"
           >
             Templates
           </Link>
+
           {location.pathname !== "/editor" && (
             <Link
               to="/editor"
