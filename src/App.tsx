@@ -5,6 +5,7 @@ import Editor from "./pages/Editor";
 import LandingPage from "./pages/LandingPage";
 import Layout from "./pages/Layout";
 import Template from "./pages/Templates";
+import GenerateReadme from "./pages/GenerateReadme";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
             <Route path="/" element={<LandingPage />} />
             <Route path="/editor" element={<Editor />} />
             <Route path="/templates" element={<Template />} />
+            <Route path="/generate-readme" element={<GenerateReadme />} />
           </Route>
         </Routes>
       </EditorProvider>

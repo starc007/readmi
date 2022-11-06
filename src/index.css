@@ -27,3 +27,15 @@
   height: 83vh;
   overflow: auto;
 }
+
+.readme__tag__div input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+}
+.readme__tag__div input[type="checkbox"]:checked + .readme__tagname {
+  color: rgb(0, 255, 255);
+  border: 0.8px solid rgb(0, 255, 255);
+  -webkit-transition: ease-in 0.3s;
+  -o-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
