@@ -1,7 +1,8 @@
 export const sections = [
   {
-    id: 1,
     name: "Title and Description",
+    slug: "title-description",
+    isSelected: true,
     md: `
 # <p align="center">Title</p>
   
@@ -9,43 +10,9 @@ Your description here
     `,
   },
   {
-    id: 2,
-    name: "Add Image",
-    md: `
-![Image](https://i.imgur.com/0Z0Z0Z0.png)
-        `,
-  },
-  {
-    id: 3,
-    name: "Add Link",
-    md: `
-[Link](https://www.google.com)
-        `,
-  },
-  {
-    id: 4,
-    name: "Add Table",
-    md: `
-| Column 1 | Column 2 | Column 3 |
-| -------- | -------- | -------- |
-| Row 1    | Row 1    | Row 1    |
-| Row 2    | Row 2    | Row 2    |
-| Row 3    | Row 3    | Row 3    |
-        `,
-  },
-  {
-    id: 5,
-    name: "Install Dependencies",
-    md: `
-## Install Dependencies    
-\`\`\`bash
-npm install
-\`\`\`
-        `,
-  },
-  {
-    id: 6,
     name: "Features",
+    slug: "features",
+    isSelected: false,
     md: `
 ## ➤ Features    
 - Feature 1
@@ -54,8 +21,61 @@ npm install
         `,
   },
   {
-    id: 7,
+    name: "Tech Stack",
+    slug: "tech-stack",
+    isSelected: false,
+    md: `
+## ➤ Tech Stack
+- [React](https://reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+    `,
+  },
+  {
+    name: "Installation",
+    slug: "installation",
+    isSelected: false,
+    md: `
+## Install Dependencies    
+\`\`\`bash
+npm install package-name
+\`\`\`
+        `,
+  },
+  {
+    name: "Add Image",
+    slug: "image",
+    isSelected: false,
+    md: `
+![Image](https://i.imgur.com/0Z0Z0Z0.png)
+        `,
+  },
+  {
+    name: "Add Link",
+    slug: "link",
+    isSelected: false,
+    md: `
+[Link](https://www.google.com)
+        `,
+  },
+  {
+    name: "Add Table",
+    slug: "table",
+    isSelected: false,
+    md: `
+| Column 1 | Column 2 | Column 3 |
+| -------- | -------- | -------- |
+| Row 1    | Row 1    | Row 1    |
+| Row 2    | Row 2    | Row 2    |
+| Row 3    | Row 3    | Row 3    |
+        `,
+  },
+
+  {
     name: "Usage",
+    slug: "usage",
+    isSelected: false,
     md: `
 ## ➤ Usage
 \`\`\`js
@@ -69,8 +89,9 @@ const connectWallet = async () => {
         `,
   },
   {
-    id: 8,
-    name: "API Reference 1",
+    name: "API Reference POST",
+    slug: "api-reference-post",
+    isSelected: false,
     md: `
 ## ➤ API Reference
 
@@ -88,8 +109,9 @@ POST /api/form
 `,
   },
   {
-    id: 9,
-    name: "API Reference 2",
+    name: "API Reference GET",
+    slug: "api-reference-get",
+    isSelected: false,
     md: `
 ## ➤ API Reference 2
 
@@ -114,8 +136,9 @@ GET /api/users/:userId
   },
 
   {
-    id: 10,
     name: "Acknowledgements",
+    slug: "acknowledgements",
+    isSelected: false,
     md: `
 ## ➤ Acknowledgements      
 - [Awesome README]()
@@ -124,8 +147,9 @@ GET /api/users/:userId
         `,
   },
   {
-    id: 11,
     name: "Contributing",
+    slug: "contributing",
+    isSelected: false,
     md: `
 ## ➤ Contributing    
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -134,8 +158,9 @@ Before contributing, please read the [code of conduct](CODE_OF_CONDUCT.md) & [co
         `,
   },
   {
-    id: 12,
     name: "Support",
+    slug: "support",
+    isSelected: false,
     md: `
 ## Support ❤️ 
 A simple star to this project repo is enough to keep me motivated on this project for days. If you find your self very much excited with this project let me know with a tweet.
@@ -144,16 +169,9 @@ If you have any questions, feel free to reach out to me on [Twitter](https://twi
         `,
   },
   {
-    id: 13,
-    name: "License",
-    md: `
-## ➤ License
-Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
-        `,
-  },
-  {
-    id: 14,
     name: "Author",
+    slug: "author",
+    isSelected: false,
     md: `
 ## ➤ Author
 #### Saurabh Chauhan
@@ -162,14 +180,12 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
         `,
   },
   {
-    id: 15,
-    name: "Tech Stack",
+    name: "License",
+    slug: "license",
+    isSelected: false,
     md: `
-## ➤ Tech Stack
-- [React](https://reactjs.org/)
-- [Next.js](https://nextjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-    `,
+## ➤ License
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
+        `,
   },
 ];

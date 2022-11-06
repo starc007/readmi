@@ -50,6 +50,12 @@ const Navbar = () => {
           >
             Templates
           </Link>
+          <Link
+            to="/generate-readme"
+            className="font-medium md:mr-4 mr-3 text-gray-100 md:text-base text-sm"
+          >
+            Generate
+          </Link>
 
           {location.pathname !== "/editor" && (
             <Link

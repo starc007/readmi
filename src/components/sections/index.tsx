@@ -27,7 +27,7 @@ const Section = () => {
         </button>
         {sections.map((section) => (
           <button
-            key={section.id}
+            key={section.slug}
             onClick={() => __addSection(section.md)}
             className="w-56 h-11 rounded-lg bg-white/5 text-white font-medium hover:bg-white/10 transition-all duration-200"
           >
