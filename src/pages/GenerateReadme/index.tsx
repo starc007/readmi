@@ -30,11 +30,11 @@ const GenerateReadme = () => {
   };
 
   return (
-    <div className="container mx-auto text-white my-10 flex flex-col items-center">
-      <p className="text-center text-4xl font-bold">
-        Generate Readme in few Seconds
+    <div className="container mx-auto text-white my-10 flex flex-col items-center lg:px-64">
+      <p className="text-center sm:text-5xl text-3xl font-bold max-w-2xl">
+        Generate your Readme in just few clicks
       </p>
-      <p className="text-xl text-gray-300 font-medium text-center mt-4">
+      <p className="sm:text-xl text-md text-gray-300 font-medium text-center mt-4">
         Select Tags to generate your readme
       </p>
       <div className="flex flex-wrap justify-center gap-4 mt-6">
@@ -52,7 +52,7 @@ const GenerateReadme = () => {
               checked={tag.isSelected}
               onChange={handleChange}
             />
-            <p className="readme__tagname relative px-5 h-10 bg-white/5 border border-white/5 flex justify-center items-center rounded-lg font-medium">
+            <p className="readme__tagname relative sm:px-5 sm:h-10 px-4 h-9 sm:text-base text-sm bg-white/5 border border-white/5 flex justify-center items-center rounded-lg font-medium">
               {tag.name}
             </p>
           </label>

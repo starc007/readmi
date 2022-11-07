@@ -1,7 +1,10 @@
 import { Link, useLocation } from "react-router-dom";
+import ReactTooltip from "react-tooltip";
 import { toast } from "react-hot-toast";
 import { ImCool2 } from "react-icons/im";
 import { AiFillGithub } from "react-icons/ai";
+import { BiDownload } from "react-icons/bi";
+import { RiFileCopy2Fill } from "react-icons/ri";
 import { useEditor } from "../../context/editorContext";
 
 const Navbar = () => {
@@ -32,15 +35,16 @@ const Navbar = () => {
 
   return (
     <div className="border-b border-gray-700">
+      <ReactTooltip place="bottom" effect="solid" type="light" id="tool-tip" />
       <div className="container mx-auto py-4 px-4 flex justify-between items-center">
         <Link to="/" className="md:text-4xl text-3xl font-semibold text-white">
           <ImCool2 />
         </Link>
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center sm:space-x-4 space-x-3">
           <a
             href="https://github.com/starc007/readmi"
             target="_blank"
-            className="text-lg text-white rounded-lg font-semibold hover:bg-white/5 transition-all duration-200"
+            className="text-white"
           >
             <AiFillGithub size={25} />
           </a>
@@ -70,15 +74,19 @@ const Navbar = () => {
             <>
               <button
                 onClick={__markdownCopy}
-                className="md:px-4 md:h-10 h-9 px-3 text-white bg-white/10 rounded-lg font-semibold md:text-sm text-xs"
+                data-tip="Copy to clipboard"
+                data-for="tool-tip"
+                className="md:px-4 md:h-10 h-9 px-3 text-white bg-white/5 rounded-lg hover:text-green-400 transition-all duration-200"
               >
-                Copy
+                <RiFileCopy2Fill size={20} />
               </button>
               <button
                 onClick={__markdownDownload}
-                className="md:px-4 md:h-10 h-9 px-3 text-white bg-blue-600 rounded-lg font-semibold md:text-sm text-xs"
+                data-tip="Download"
+                data-for="tool-tip"
+                className="md:px-4 md:h-10 h-9 px-3 text-white bg-blue-600 rounded-lg"
               >
-                Download
+                <BiDownload size={20} />
               </button>
             </>
           )}
