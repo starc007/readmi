@@ -47,7 +47,7 @@ const Template = () => {
                 </button>
               </div>
             </div>
-            <div className="border border-gray-700 h-96 w-[340px] sm:w-full overflow-auto hide__scrollbar px-5 py-3">
+            <div className="border border-gray-700 h-96 w-[345px] sm:w-full overflow-auto hide__scrollbar px-5 py-3">
               <MDEditor.Markdown source={template__files[key].md} />
             </div>
           </div>

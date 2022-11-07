@@ -14,7 +14,8 @@
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.0",
     "react-icons": "^4.6.0",
-    "react-router-dom": "^6.4.3"
+    "react-router-dom": "^6.4.3",
+    "react-tooltip": "^4.4.3"
   },
   "devDependencies": {
     "@types/node": "^18.11.9",
