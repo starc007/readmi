@@ -19,6 +19,7 @@
 - Edit and Download Existing Template
 - Add prebuilt sections
 - Download or copy your file
+- Generate your readme using tags
 
 ## ➤ Tech Stack
 
