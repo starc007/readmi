@@ -6,8 +6,13 @@ const Section = () => {
   const { setValue } = useEditor();
 
   const __addSection = (section: string) => {
+
     setValue((prev: string) => {
-      return prev + section;
+      const e = document.querySelector('.w-md-editor-text-input ');
+      const target = e as HTMLTextAreaElement;
+      const textAfter = target.value.substring(0, target.selectionStart || prev.length);
+      const textBefore = prev.substring(textAfter.length, prev.length);
+      return textAfter + section + textBefore;
     });
   };
 
