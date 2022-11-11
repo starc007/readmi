@@ -14,7 +14,7 @@ Your description here
     slug: "features",
     isSelected: false,
     md: `
-## ➤ Features    
+## 🧐 Features    
 - Feature 1
 - Feature 2
 - Feature 3
@@ -25,7 +25,7 @@ Your description here
     slug: "tech-stack",
     isSelected: false,
     md: `
-## ➤ Tech Stack
+## 🛠️ Tech Stack
 - [React](https://reactjs.org/)
 - [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -37,7 +37,7 @@ Your description here
     slug: "installation",
     isSelected: false,
     md: `
-## Install Dependencies    
+## 🛠️ Install Dependencies    
 \`\`\`bash
 npm install package-name
 \`\`\`
@@ -77,7 +77,7 @@ npm install package-name
     slug: "usage",
     isSelected: false,
     md: `
-## ➤ Usage
+## 🧑🏻‍💻 Usage
 \`\`\`js
 import { useMetamask } from '@saura3h/web3-connect'
 const client = new useMetamask()
@@ -140,7 +140,7 @@ GET /api/users/:userId
     slug: "acknowledgements",
     isSelected: false,
     md: `
-## ➤ Acknowledgements      
+## 🙇 Acknowledgements      
 - [Awesome README]()
 - [GitHub Emoji Cheat Sheet]()
 - [GitHub Markdown Emoji]()
@@ -151,7 +151,7 @@ GET /api/users/:userId
     slug: "contributing",
     isSelected: false,
     md: `
-## ➤ Contributing    
+## 🍰 Contributing    
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 Before contributing, please read the [code of conduct](CODE_OF_CONDUCT.md) & [contributing guidelines](CONTRIBUTING.md).
@@ -162,7 +162,7 @@ Before contributing, please read the [code of conduct](CODE_OF_CONDUCT.md) & [co
     slug: "support",
     isSelected: false,
     md: `
-## Support ❤️ 
+## ❤️ Support  
 A simple star to this project repo is enough to keep me motivated on this project for days. If you find your self very much excited with this project let me know with a tweet.
 
 If you have any questions, feel free to reach out to me on [Twitter](https://twitter.com/saurra3h).
@@ -173,7 +173,7 @@ If you have any questions, feel free to reach out to me on [Twitter](https://twi
     slug: "author",
     isSelected: false,
     md: `
-## ➤ Author
+## 🙇 Author
 #### Saurabh Chauhan
 - Twitter: [@saurra3h](https://twitter.com/saurra3h)
 - Github: [@starc007](https://github.com/starc007)
