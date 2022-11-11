@@ -14,7 +14,7 @@
 <img src="https://img.shields.io/github/stars/starc007/readmi?style=flat-square" alt="github-profile-readme-generator stars"/>
 </a>
 <a href="https://github.com/starc007/readmi/issues" target="blank">
-<img src="https://img.shields.io/github/issues/rahuldkjain/github-profile-readme-generator?style=flat-square" alt="github-profile-readme-generator issues"/>
+<img src="https://img.shields.io/github/issues/starc007/readmi?style=flat-square" alt="github-profile-readme-generator issues"/>
 </a>
 <a href="https://github.com/starc007/readmi/pulls" target="blank">
 <img src="https://img.shields.io/github/issues-pr/starc007/readmi?style=flat-square" alt="github-profile-readme-generator pull-requests"/>
