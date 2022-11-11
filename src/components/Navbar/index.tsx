@@ -35,7 +35,6 @@ const Navbar = () => {
 
   return (
     <div className="border-b border-gray-700">
-      <ReactTooltip place="bottom" effect="solid" type="light" id="tool-tip" />
       <div className="container mx-auto py-4 px-4 flex justify-between items-center">
         <Link to="/" className="md:text-4xl text-3xl font-semibold text-white">
           <ImCool2 />
@@ -88,6 +87,12 @@ const Navbar = () => {
               >
                 <BiDownload size={20} />
               </button>
+              <ReactTooltip
+                place="bottom"
+                effect="solid"
+                type="light"
+                id="tool-tip"
+              />
             </>
           )}
         </div>
