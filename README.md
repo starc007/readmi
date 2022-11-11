@@ -27,7 +27,7 @@
 </p>
 
 <p align="center">
-    <a href="https://readmi.xyz">View Demo</a>
+    <a href="https://readmi.xyz" target="blank">View Demo</a>
     ·
     <a href="https://github.com/starc007/readmi/issues">Report Bug</a>
     ·
