@@ -1,7 +1,13 @@
 {
-  "name": "readme-generator",
+  "name": "github-readme-builder",
   "private": true,
-  "version": "0.0.0",
+  "description": "A simple tool to generate a github README.md file for your projects",
+  "version": "0.0.1",
+  "author": {
+    "name": "Saurabh Chauhan",
+    "email": "saurabh10102@gmail.com"
+  },
+  "homepage": "https://readmi.xyz",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,8 +16,11 @@
   },
   "dependencies": {
     "@uiw/react-md-editor": "^3.19.3",
+    "i": "^0.3.7",
+    "npm": "^9.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "react-hot-toast": "^2.4.0",
     "react-icons": "^4.6.0",
     "react-router-dom": "^6.4.3",
@@ -21,11 +30,26 @@
     "@types/node": "^18.11.9",
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
+    "@types/react-helmet": "^6.1.5",
     "@vitejs/plugin-react": "^2.2.0",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.18",
     "tailwindcss": "^3.2.1",
     "typescript": "^4.6.4",
     "vite": "^3.2.0"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "github",
+    "readme",
+    "markdown"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/starc007/readmi"
+  },
+  "bugs": {
+    "url": "https://github.com/starc007/readmi/issues"
   }
 }
