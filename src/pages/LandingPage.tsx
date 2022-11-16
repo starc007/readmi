@@ -40,6 +40,20 @@ const LandingPage = () => {
             </a>
           </div>
 
+          <div className="mt-7">
+            <a
+              href="https://www.producthunt.com/posts/readmi?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-readmi"
+              target="_blank"
+            >
+              <img
+                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=367072&theme=dark"
+                alt="Readmi - Github&#0032;Readme&#0032;builder&#0046;&#0032;Create&#0032;your&#0032;readme&#0032;in&#0032;no&#0032;time | Product Hunt"
+                width="250"
+                height="54"
+              />
+            </a>
+          </div>
+
           <div className="mt-28 mb-10 relative border border-gray-700 rounded-lg">
             <div className="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
             <img className="transform " src={demo} alt="demo" />
