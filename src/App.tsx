@@ -6,6 +6,7 @@ import LandingPage from "./pages/LandingPage";
 import Layout from "./pages/Layout";
 import Template from "./pages/Templates";
 import GenerateReadme from "./pages/GenerateReadme";
+import NotFound from "./components/NotFound";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
             <Route path="/templates" element={<Template />} />
             <Route path="/generate-readme" element={<GenerateReadme />} />
           </Route>
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </EditorProvider>
     </Router>
