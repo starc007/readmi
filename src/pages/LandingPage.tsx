@@ -64,7 +64,7 @@ const LandingPage = () => {
           <p className="text-center text-white text-xl font-medium">
             Made with ❤️ by{" "}
             <a
-              href="https://www.jutsu.tech"
+              href="https://www.saura3h.xyz"
               target="_blank"
               className="underline"
             >
